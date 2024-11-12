@@ -235,3 +235,4 @@ C:\Users\mi162\source\repos\CrudWithPostgresMVC\CrudWithPostgresMVC\bin\Debug\ne
 C:\Users\mi162\source\repos\CrudWithPostgresMVC\CrudWithPostgresMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\mi162\source\repos\CrudWithPostgresMVC\CrudWithPostgresMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mi162\source\repos\CrudWithPostgresMVC\CrudWithPostgresMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\mi162\source\repos\CrudWithPostgresMVC\CrudWithPostgresMVC\obj\Debug\net8.0\CrudWithPostgresMVC.sourcelink.json

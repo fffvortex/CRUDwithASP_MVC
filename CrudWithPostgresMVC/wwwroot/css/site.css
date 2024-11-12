@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  background-color: gray;
 }
 
 @media (min-width: 768px) {
@@ -13,10 +14,37 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: gray;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: gray;
 }
+label{
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: black;
+    color: greenyellow;
+    padding: 5px;
+    font-weight: bold;
+}
+div {
+    background-color: dimgray;
+    border-radius: 10px;
+}
+header {
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.63);
+}
+a{
+    color:greenyellow;
+}
+a:hover{
+    color:darkgreen;
+}
+.container-fluid {
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.63);
+}
+

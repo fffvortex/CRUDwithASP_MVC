@@ -4,10 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div style="display:flex;justify-content:space-around; border-radius: 10px; background-color: black; margin: 1em">
+    <h1 style="margin:auto; background-color: black; color:greenyellow; font-weight: bold;">CRUD</h1>
+</div>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">@Html.Label("Create","Create New")</a>
+    
 </p>
 <table class="table">
     <thead>
