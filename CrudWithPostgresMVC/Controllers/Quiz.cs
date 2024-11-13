@@ -10,12 +10,11 @@ namespace CrudWithPostgresMVC.Controllers
         [HttpPost]
         public IActionResult SendAnswer(string answer)
         {
-            //if (answer == "1")
-            //{
-            //    return Ok("you really gay");
-            //}
-            //return BadRequest("You are not gay 😞 ");
-            return View(answer);
+            if (answer == "1")
+            {
+                return Ok("you really gay");
+            }
+            return BadRequest("You are not gay 😞 ");
         }
     }
 }
