@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudWithPostgresMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f99628449f4f7fcc915aa2ec1d1ff13dca1b826")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f682678b8de6388b2ca11c01356cee4ec1d180ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudWithPostgresMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudWithPostgresMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using CrudWithPostgresMVC.Context;
+﻿using CrudWithPostgresMVC.Context;
 using CrudWithPostgresMVC.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace CrudWithPostgresMVC.Views
+namespace CrudWithPostgresMVC.Controllers
 {
     public class UsersController : Controller
     {
@@ -24,6 +19,17 @@ namespace CrudWithPostgresMVC.Views
         {
             return View(await _context.users.ToListAsync());
         }
+
+        public IActionResult SelectName()
+        {
+            return View(_context.users);
+        }
+
+        public async Task<IActionResult> UsersGet()
+        {
+            return View(await _context.users.ToListAsync());
+        }
+
 
         // GET: Users/Details/5
         public async Task<IActionResult> Details(Guid? id)

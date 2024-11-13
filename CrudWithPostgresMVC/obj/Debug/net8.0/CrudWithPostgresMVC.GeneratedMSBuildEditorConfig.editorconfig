@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/Quiz/SendAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxTZW5kQW5zd2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +64,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/Users/SelectName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2VsZWN0TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/Users/UsersGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXNlcnNHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mi162/source/repos/CrudWithPostgresMVC/CrudWithPostgresMVC/Views/_ViewImports.cshtml]

@@ -47,4 +47,166 @@ a:hover{
 .container-fluid {
     box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.63);
 }
+td{
+    color: black;
+}
+label:hover {
+    color:black;
+    background-color:darkslategray;
+}
+.btn {
+    font-weight: bold;
+    color: forestgreen;
+    background-color: black;
+    border: solid 2px green;
+    border-radius: 15px;
+}
+    .btn:hover {
+        background-color: forestgreen;
+        color: black;
+        border: solid 2px black;
+        transition:all 2s;
+    }
+.form-control{
+    background-color: grey;
+    border: black 4px solid;
+    margin:3px;
+}
+    .form-control:active {
+        background-color: black;
+        color: lawngreen;
+        border: black 4px solid;
+    }
+    .form-control:focus {
+        background-color: black;
+        color: lawngreen;
+        border: none;
+        margin: 3px;
+    }
+    .form-control:focus-visible {
+        background-color: black;
+        color: lawngreen;
+        border: none;
+        margin: 3px;
+    }
 
+
+.select {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    background-color:dimgray;
+    color:greenyellow;
+    font-size: 20px;
+    border: 2px black solid;
+    cursor: pointer;
+}
+.form-select{
+    background-color:black;
+    color:greenyellow;
+}
+
+
+.option {
+    padding: 0 30px 0 10px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    background: #333;
+    border-top: #222 solid 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+    order: 2;
+    z-index: 1;
+    transition: background .4s ease-in-out;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+    .option:hover {
+        background: #666;
+        cursor: pointer;
+    }
+
+.select:focus .option {
+    position: relative;
+    pointer-events: all;
+}
+
+li {
+    margin-inline: 3px;
+}
+
+input.radio:empty {
+    display:none;
+}
+
+    /* style label */
+    input.radio:empty ~ label {
+        position: relative;
+        float: left;
+        line-height: 2.5em;
+        text-indent: 3.25em;
+        margin-top: 2em;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        input.radio:empty ~ label:before {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            content: '';
+            width: 2.5em;
+            background: black;
+            border-radius: 14px 0 0 14px;
+        }
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #9CE2AE;
+    background-color: #4DCB6D;
+}
+
+input.radio:checked ~ label {
+    color: #777;
+}
+
+/* radio focus */
+input.radio:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+.radio-div {
+    clear: both;
+    margin: 0 50px;
+}
+
+form{
+    background-color:dimgray;
+}

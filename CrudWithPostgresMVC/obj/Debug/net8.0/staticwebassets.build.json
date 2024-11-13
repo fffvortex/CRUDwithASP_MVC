@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sk1B6stFJ1g2BBmBlkBJXY2KNupvrDhhYupwGGQDa5Q=",
+  "Hash": "tylpdsiDzafa3y/8sN2k0CIucM+ioeWIgqBiJ8Ho/V4=",
   "Source": "CrudWithPostgresMVC",
   "BasePath": "_content/CrudWithPostgresMVC",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mi162\\source\\repos\\CrudWithPostgresMVC\\CrudWithPostgresMVC\\wwwroot\\lightning-Photoroom.png",
+      "SourceId": "CrudWithPostgresMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mi162\\source\\repos\\CrudWithPostgresMVC\\CrudWithPostgresMVC\\wwwroot\\",
+      "BasePath": "_content/CrudWithPostgresMVC",
+      "RelativePath": "lightning-Photoroom.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lightning-Photoroom.png"
     }
   ]
 }

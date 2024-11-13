@@ -1,0 +1,11 @@
+﻿@using CrudWithPostgresMVC.Helpers;
+@model string;
+@{
+    ViewData["Title"] = "Quiz";
+}
+@{
+    <div style="display:flex;justify-content:space-around; border-radius: 10px; background-color: black; margin: 1em">
+        <h1 style="margin:auto; background-color: black; color:greenyellow; font-weight: bold;">QUIZ</h1>
+    </div>
+}
+@Html.CreateFormForQuiz()

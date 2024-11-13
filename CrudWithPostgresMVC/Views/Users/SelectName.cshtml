@@ -1,0 +1,17 @@
+﻿@using CrudWithPostgresMVC.Helpers;
+@model IEnumerable<CrudWithPostgresMVC.Models.User>
+@{
+    ViewData["Select"] = "Select";
+}
+
+@{
+   
+}
+
+<div style="display:flex;justify-content:space-around; border-radius: 10px; background-color: black; margin: 1em">
+    <h1 style="margin:auto; background-color: black; color:greenyellow; font-weight: bold;">SELECT</h1>
+</div>
+
+@Html.CreateList(Model)
+<br />
+@Html.CreateListWithStyles(Model)
